@@ -1,0 +1,266 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Uber",
+        "description": "Using the Uber API, developers can integrate the power of Uber into 3rd party applications. Calls to the API can be made to request information on available car types, driver location expressed in geo-coordinates, time estimates, estimated prices (including currency conversion when applicable), as well as user account history and activity. The Uber API documentation describes deep linking techniques to programmatically launch the native app from iOS or Android, or the Uber mobile site from mobile web. The API comes with a detailed style guide and asset package for implementing licensed brandings. The Uber API Affiliate program grants cash and issues Uber credits for new user onboarding through a 3rd party app.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsapi.uber.com\/v1"
+    ],
+    "paths": {
+        "\/products": {
+            "get": {
+                "summary": "Product Types",
+                "description": "The Products endpoint returns information about the Uber products offered at a given location. The response includes the display name and other details about each product, and lists the products in the proper display order.",
+                "operationId": "TheProductsEndpointReturnsInformationAboutTheUberProductsOfferedAtAGivenLocationTheRe",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "latitude",
+                        "in": "query",
+                        "description": "Latitude component of location."
+                    },
+                    {
+                        "name": "longitude",
+                        "in": "query",
+                        "description": "Longitude component of location."
+                    }
+                ]
+            }
+        },
+        "\/estimates\/price": {
+            "get": {
+                "summary": "Price Estimates",
+                "description": "The Price Estimates endpoint returns an estimated price range for each product offered at a given location. The price estimate is provided as a formatted string with the full price range and the localized currency symbol.<br><br>The response also includes low and high estimates, and the [ISO 4217](http:\/\/en.wikipedia.org\/wiki\/ISO_4217) currency code for situations requiring currency conversion. When surge is active for a particular product, its surge_multiplier will be greater than 1, but the pr",
+                "operationId": "ThePriceEstimatesEndpointReturnsAnEstimatedPriceRangeForEachProductOfferedAtAGivenLo",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "start_latitude",
+                        "in": "query",
+                        "description": "Latitude component of start location."
+                    },
+                    {
+                        "name": "start_longitude",
+                        "in": "query",
+                        "description": "Longitude component of start location."
+                    },
+                    {
+                        "name": "end_latitude",
+                        "in": "query",
+                        "description": "Latitude component of end location."
+                    },
+                    {
+                        "name": "end_longitude",
+                        "in": "query",
+                        "description": "Longitude component of end location."
+                    }
+                ]
+            }
+        },
+        "\/estimates\/time": {
+            "get": {
+                "summary": "Time Estimates",
+                "description": "The Time Estimates endpoint returns ETAs for all products offered at a given location, with the responses expressed as integers in seconds. We recommend that this endpoint be called every minute to provide the most accurate, up-to-date ETAs.",
+                "operationId": "TheTimeEstimatesEndpointReturnsEtasForAllProductsOfferedAtAGivenLocationWithTheRespo",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "start_latitude",
+                        "in": "query",
+                        "description": "Latitude component of start location."
+                    },
+                    {
+                        "name": "start_longitude",
+                        "in": "query",
+                        "description": "Longitude component of start location."
+                    },
+                    {
+                        "name": "customer_uuid",
+                        "in": "query",
+                        "description": "Unique customer identifier to be used for experience customization."
+                    },
+                    {
+                        "name": "product_id",
+                        "in": "query",
+                        "description": "Unique identifier representing a specific product for a given latitude & longitude."
+                    }
+                ]
+            }
+        },
+        "\/me": {
+            "get": {
+                "summary": "User Profile",
+                "description": "The User Profile endpoint returns information about the Uber user that has authorized with the application.",
+                "operationId": "TheUserProfileEndpointReturnsInformationAboutTheUberUserThatHasAuthorizedWithTheAppli",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/history": {
+            "get": {
+                "summary": "User Activity",
+                "description": "The User Activity endpoint returns data about a user's lifetime activity with Uber. The response will include pickup locations and times, dropoff locations and times, the distance of past requests, and information about which products were requested.<br><br>The history array in the response will have a maximum length based on the limit parameter. The response value count may exceed limit, therefore subsequent API requests may be necessary.",
+                "operationId": "TheUserActivityEndpointReturnsDataAboutAUsersLifetimeActivityWithUberTheResponseWill",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "Offset the list of returned results by this amount. Default is zero."
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "Number of items to retrieve. Default is 5, maximum is 100."
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Product": {
+                "type": "object",
+                "properties": {
+                    "product_id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "display_name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "capacity": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "image": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "ProductList": {
+                "type": "object",
+                "properties": {
+                    "products": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "PriceEstimate": {
+                "type": "object",
+                "properties": {
+                    "product_id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "currency_code": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "display_name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "estimate": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "low_estimate": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "high_estimate": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "surge_multiplier": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "Profile": {
+                "type": "object",
+                "properties": {
+                    "first_name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "last_name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "email": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "picture": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "promo_code": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "Activity": {
+                "type": "object",
+                "properties": {
+                    "uuid": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "Activities": {
+                "type": "object",
+                "properties": {
+                    "offset": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "limit": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "count": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "history": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "Error": {
+                "type": "object",
+                "properties": {
+                    "code": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "message": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "fields": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            }
+        }
+    }
+}
