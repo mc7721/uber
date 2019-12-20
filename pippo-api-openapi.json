@@ -1,0 +1,320 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "PIPPO API",
+        "description": "Move your app forward with the Uber API",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "http:\/\/api.uber.com\/v1"
+    ],
+    "paths": {
+        "\/products": {
+            "get": {
+                "summary": "Product Types",
+                "description": "The Products endpoint returns information about the *Uber* products\noffered at a given location. The response includes the display name\nand other details about each product, and lists the products in the\nproper display order.\n",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "latitude",
+                        "in": "query",
+                        "description": "Latitude component of location."
+                    },
+                    {
+                        "name": "longitude",
+                        "in": "query",
+                        "description": "Longitude component of location."
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "An array of products",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Profile"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/estimates\/price": {
+            "get": {
+                "summary": "Price Estimates",
+                "description": "The Price Estimates endpoint returns an estimated price range\nfor each product offered at a given location. The price estimate is\nprovided as a formatted string with the full price range and the localized\ncurrency symbol.<br><br>The response also includes low and high estimates,\nand the [ISO 4217](http:\/\/en.wikipedia.org\/wiki\/ISO_4217) currency code for\nsituations requiring currency conversion. When surge is active for a particular\nproduct, its surge_multiplier will be greater than 1, but the pr",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "start_latitude",
+                        "in": "query",
+                        "description": "Latitude component of start location."
+                    },
+                    {
+                        "name": "start_longitude",
+                        "in": "query",
+                        "description": "Longitude component of start location."
+                    },
+                    {
+                        "name": "end_latitude",
+                        "in": "query",
+                        "description": "Latitude component of end location."
+                    },
+                    {
+                        "name": "end_longitude",
+                        "in": "query",
+                        "description": "Longitude component of end location."
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "An array of products",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Profile"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/estimates\/time": {
+            "get": {
+                "summary": "Time Estimates",
+                "description": "The Time Estimates endpoint returns ETAs for all products offered at a given location, with the responses expressed as integers in seconds. We recommend that this endpoint be called every minute to provide the most accurate, up-to-date ETAs.",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "start_latitude",
+                        "in": "query",
+                        "description": "Latitude component of start location."
+                    },
+                    {
+                        "name": "start_longitude",
+                        "in": "query",
+                        "description": "Longitude component of start location."
+                    },
+                    {
+                        "name": "customer_uuid",
+                        "in": "query",
+                        "description": "Unique customer identifier to be used for experience customization."
+                    },
+                    {
+                        "name": "product_id",
+                        "in": "query",
+                        "description": "Unique identifier representing a specific product for a given latitude & longitude."
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "An array of products",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Profile"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/me": {
+            "get": {
+                "summary": "User Profile",
+                "description": "The User Profile endpoint returns information about the Uber user that has authorized with the application.",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "An array of products",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Profile"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/history": {
+            "get": {
+                "summary": "User Activity",
+                "description": "The User Activity endpoint returns data about a user's lifetime activity with Uber. The response will include pickup locations and times, dropoff locations and times, the distance of past requests, and information about which products were requested.<br><br>The history array in the response will have a maximum length based on the limit parameter. The response value count may exceed limit, therefore subsequent API requests may be necessary.",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "Offset the list of returned results by this amount. Default is zero."
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "Number of items to retrieve. Default is 5, maximum is 100."
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "An array of products",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/Profile"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Product": {
+                "type": "object",
+                "properties": {
+                    "product_id": {
+                        "description": "Unique identifier representing a specific product for a given latitude & longitude. For example, uberX in San Francisco will have a different product_id than uberX in Los Angeles.",
+                        "type": "string"
+                    },
+                    "description": {
+                        "description": "Description of product.",
+                        "type": "string"
+                    },
+                    "display_name": {
+                        "description": "Display name of product.",
+                        "type": "string"
+                    },
+                    "capacity": {
+                        "description": "Capacity of product. For example, 4 people.",
+                        "type": "string"
+                    },
+                    "image": {
+                        "description": "Image URL representing the product.",
+                        "type": "string"
+                    }
+                }
+            },
+            "PriceEstimate": {
+                "type": "object",
+                "properties": {
+                    "product_id": {
+                        "description": "Unique identifier representing a specific product for a given latitude & longitude. For example, uberX in San Francisco will have a different product_id than uberX in Los Angeles.",
+                        "type": "string"
+                    },
+                    "currency_code": {
+                        "description": "[ISO 4217](http:\/\/en.wikipedia.org\/wiki\/ISO_4217) currency code.",
+                        "type": "string"
+                    },
+                    "display_name": {
+                        "description": "Display name of product.",
+                        "type": "string"
+                    },
+                    "estimate": {
+                        "description": "Formatted string of estimate in local currency of the start location. Estimate could be a range, a single number (flat rate) or \"Metered\" for TAXI.",
+                        "type": "string"
+                    },
+                    "low_estimate": {
+                        "description": "Lower bound of the estimated price.",
+                        "type": "number"
+                    },
+                    "high_estimate": {
+                        "description": "Upper bound of the estimated price.",
+                        "type": "number"
+                    },
+                    "surge_multiplier": {
+                        "description": "Expected surge multiplier. Surge is active if surge_multiplier is greater than 1. Price estimate already factors in the surge multiplier.",
+                        "type": "number"
+                    }
+                }
+            },
+            "Profile": {
+                "type": "object",
+                "properties": {
+                    "first_name": {
+                        "description": "First name of the Uber user.",
+                        "type": "string"
+                    },
+                    "last_name": {
+                        "description": "Last name of the Uber user.",
+                        "type": "string"
+                    },
+                    "email": {
+                        "description": "Email address of the Uber user",
+                        "type": "string"
+                    },
+                    "picture": {
+                        "description": "Image URL of the Uber user.",
+                        "type": "string"
+                    },
+                    "promo_code": {
+                        "description": "Promo code of the Uber user.",
+                        "type": "string"
+                    }
+                }
+            },
+            "Activity": {
+                "type": "object",
+                "properties": {
+                    "uuid": {
+                        "description": "Unique identifier for the activity",
+                        "type": "string"
+                    }
+                }
+            },
+            "Activities": {
+                "type": "object",
+                "properties": {
+                    "offset": {
+                        "description": "Position in pagination.",
+                        "type": "integer"
+                    },
+                    "limit": {
+                        "description": "Number of items to retrieve (100 max).",
+                        "type": "integer"
+                    },
+                    "count": {
+                        "description": "Total number of items available.",
+                        "type": "integer"
+                    },
+                    "history": {
+                        "description": "",
+                        "type": "array"
+                    }
+                }
+            },
+            "history": {
+                "type": "array"
+            },
+            "Error": {
+                "type": "object",
+                "properties": {
+                    "code": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "message": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "fields": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    }
+}
