@@ -1,13 +1,13 @@
 {
     "openapi": "3.0.0",
     "info": {
-        "version": "1.0.0",
-        "title": "\u6d4b\u8bd5API",
-        "description": "Move your app forward with the Uber API",
+        "version": "\u7248\u672c1.0.",
+        "title": "API\u6240\u5c5e\u9879\u76ee",
+        "description": "\u9879\u76ee\u7b80\u4ecb\uff0cAPI\u7b80\u4ecb",
         "termsOfService": "http:\/\/exmple.com\/license\/"
     },
     "servers": [
-        "http:\/\/api.uber.com\/aaa"
+        "http:\/\/api.uber.com\/v1"
     ],
     "paths": {
         "\/products": {
