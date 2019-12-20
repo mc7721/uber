@@ -1,0 +1,67 @@
+{
+    "id": "3715cc7536fda1122f9615f5f7bad77d",
+    "name": "ReadmePad API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "fc45b68c18415b97de3a9a2eb9997aac",
+            "name": "Product Types",
+            "url": "http:\/\/api.uber.com\/project\/loadall",
+            "description": "any description\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3715cc7536fda1122f9615f5f7bad77d",
+            "rawModeData": ""
+        },
+        {
+            "id": "ab8c6fc5289344fb7adea76f4beb8ec1",
+            "name": "Open a project",
+            "url": "http:\/\/api.uber.com\/project\/open\/pid",
+            "description": "any description\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "pid",
+                    "description": "Project ID",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3715cc7536fda1122f9615f5f7bad77d",
+            "rawModeData": ""
+        }
+    ]
+}
