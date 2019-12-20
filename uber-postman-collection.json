@@ -1,0 +1,216 @@
+{
+    "id": "fd995a95dfca06c69907622544ddcf7a",
+    "name": "Uber",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "8abdba2bae9a26e853b28027cd2bd27d",
+            "name": "Product Types",
+            "url": "httpsapi.uber.com\/v1\/products",
+            "description": "The Products endpoint returns information about the Uber products offered at a given location. The response includes the display name and other details about each product, and lists the products in the proper display order.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "latitude",
+                    "description": "Latitude component of location.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "longitude",
+                    "description": "Longitude component of location.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "fd995a95dfca06c69907622544ddcf7a",
+            "rawModeData": ""
+        },
+        {
+            "id": "bba6d81df4a4d6a5d8ab191b96557e00",
+            "name": "Price Estimates",
+            "url": "httpsapi.uber.com\/v1\/estimates\/price",
+            "description": "The Price Estimates endpoint returns an estimated price range for each product offered at a given location. The price estimate is provided as a formatted string with the full price range and the localized currency symbol.<br><br>The response also includes low and high estimates, and the [ISO 4217](http:\/\/en.wikipedia.org\/wiki\/ISO_4217) currency code for situations requiring currency conversion. When surge is active for a particular product, its surge_multiplier will be greater than 1, but the pr",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "start_latitude",
+                    "description": "Latitude component of start location.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "start_longitude",
+                    "description": "Longitude component of start location.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "end_latitude",
+                    "description": "Latitude component of end location.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "end_longitude",
+                    "description": "Longitude component of end location.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "fd995a95dfca06c69907622544ddcf7a",
+            "rawModeData": ""
+        },
+        {
+            "id": "bb4f4ae78b72685113263919dacacbea",
+            "name": "Time Estimates",
+            "url": "httpsapi.uber.com\/v1\/estimates\/time",
+            "description": "The Time Estimates endpoint returns ETAs for all products offered at a given location, with the responses expressed as integers in seconds. We recommend that this endpoint be called every minute to provide the most accurate, up-to-date ETAs.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "start_latitude",
+                    "description": "Latitude component of start location.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "start_longitude",
+                    "description": "Longitude component of start location.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "customer_uuid",
+                    "description": "Unique customer identifier to be used for experience customization.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "product_id",
+                    "description": "Unique identifier representing a specific product for a given latitude & longitude.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "fd995a95dfca06c69907622544ddcf7a",
+            "rawModeData": ""
+        },
+        {
+            "id": "8c291a479c3e1b4b57a701dfe275bc6f",
+            "name": "User Profile",
+            "url": "httpsapi.uber.com\/v1\/me",
+            "description": "The User Profile endpoint returns information about the Uber user that has authorized with the application.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "fd995a95dfca06c69907622544ddcf7a",
+            "rawModeData": ""
+        },
+        {
+            "id": "98ac81cf0836b00ad35a9435a6afa2fb",
+            "name": "User Activity",
+            "url": "httpsapi.uber.com\/v1\/history",
+            "description": "The User Activity endpoint returns data about a user's lifetime activity with Uber. The response will include pickup locations and times, dropoff locations and times, the distance of past requests, and information about which products were requested.<br><br>The history array in the response will have a maximum length based on the limit parameter. The response value count may exceed limit, therefore subsequent API requests may be necessary.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "offset",
+                    "description": "Offset the list of returned results by this amount. Default is zero.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limit",
+                    "description": "Number of items to retrieve. Default is 5, maximum is 100.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "fd995a95dfca06c69907622544ddcf7a",
+            "rawModeData": ""
+        }
+    ]
+}
