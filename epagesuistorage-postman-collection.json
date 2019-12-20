@@ -1,0 +1,358 @@
+{
+    "id": "24413916c4585893f65969bb81738d0d",
+    "name": "epages-ui-storage",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "b689c5b982d5184e21e6e4fd8058d835",
+            "name": "Shops",
+            "url": "http:\/\/api.uber.com\/\/{shopId}\/config",
+            "description": "The Products endpoint returns information about the *Uber* products\noffered at a given location. The response includes the display name\nand other details about each product, and lists the products in the\nproper display order.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "24413916c4585893f65969bb81738d0d",
+            "rawModeData": ""
+        },
+        {
+            "id": "2f884e0e85aea196c84ba53ada8e1fe5",
+            "name": "Pages",
+            "url": "http:\/\/api.uber.com\/\/{shopId}\/pages",
+            "description": "List all page of the corresponding shop\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "24413916c4585893f65969bb81738d0d",
+            "rawModeData": ""
+        },
+        {
+            "id": "540acd53ba418b65cbf55de7199b8fc2",
+            "name": "Pages",
+            "url": "http:\/\/api.uber.com\/\/{shopId}\/pages",
+            "description": "List all page of the corresponding shop\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "24413916c4585893f65969bb81738d0d",
+            "rawModeData": ""
+        },
+        {
+            "id": "ee748276fa94cdd53a74c44af38397d7",
+            "name": "Page",
+            "url": "http:\/\/api.uber.com\/\/{shopId}\/pages\/{pageId}",
+            "description": "The Products endpoint returns information about the *Uber* products\noffered at a given location. The response includes the display name\nand other details about each product, and lists the products in the\nproper display order.\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "pageId",
+                    "description": "Id of the page to get",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "24413916c4585893f65969bb81738d0d",
+            "rawModeData": ""
+        },
+        {
+            "id": "cbdeea68403406bfc00c9b1e144299dc",
+            "name": "",
+            "url": "http:\/\/api.uber.com\/\/{shopId}\/pages\/{pageId}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "pageId",
+                    "description": "Id of the page to get",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "24413916c4585893f65969bb81738d0d",
+            "rawModeData": ""
+        },
+        {
+            "id": "53120397ccd0d86ba3bae0e1444b63b2",
+            "name": "",
+            "url": "http:\/\/api.uber.com\/\/{shopId}\/pages\/{pageId}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "pageId",
+                    "description": "Id of the page to get",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "24413916c4585893f65969bb81738d0d",
+            "rawModeData": ""
+        },
+        {
+            "id": "584e7ae9308b19c89a0db0225add51de",
+            "name": "Themes",
+            "url": "http:\/\/api.uber.com\/\/{shopId}\/themes",
+            "description": "List all page of the corresponding shop\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "24413916c4585893f65969bb81738d0d",
+            "rawModeData": ""
+        },
+        {
+            "id": "8d8b5ca83cfd7d4a27334198f6553220",
+            "name": "Themes",
+            "url": "http:\/\/api.uber.com\/\/{shopId}\/themes",
+            "description": "List all page of the corresponding shop\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "24413916c4585893f65969bb81738d0d",
+            "rawModeData": ""
+        },
+        {
+            "id": "362163029c7e20d5f1ea08b466898287",
+            "name": "Themes",
+            "url": "http:\/\/api.uber.com\/\/{shopId}\/themes\/{themeId}",
+            "description": "List all page of the corresponding shop\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "themeId",
+                    "description": "Id of the theme to get",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "24413916c4585893f65969bb81738d0d",
+            "rawModeData": ""
+        },
+        {
+            "id": "a0389bf23f4a6b84899ba8405f26d8a4",
+            "name": "Themes",
+            "url": "http:\/\/api.uber.com\/\/{shopId}\/themes\/{themeId}",
+            "description": "List all page of the corresponding shop\n",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "No Name",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "themeId",
+                    "description": "Id of the theme to get",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "24413916c4585893f65969bb81738d0d",
+            "rawModeData": ""
+        }
+    ]
+}
