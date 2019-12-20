@@ -1,0 +1,953 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Uber API v2",
+        "description": "Move your app forward with the Uber API",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "http:\/\/api.uber.com\/v1"
+    ],
+    "paths": {
+        "\/": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/level1": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/level1\/level2": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/level1\/level2\/level3": {
+            "post": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/1": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/2": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/3": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/4": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/5": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/6": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/7": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/8": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/9": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/10": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/11": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/12": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/13": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/14": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/15": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/16": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/17": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/18": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/19": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/20": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/21": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/22": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/23": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/24": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/25": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/26": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/27": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/28": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/29": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/30": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/31": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/33": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/34": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/35": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/36": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/37": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/38": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/39": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/40": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/41": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/42": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/43": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/44": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/45": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/46": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/47": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/48": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/49": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/50": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/51": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/52": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/53": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/54": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/55": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/56": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/57": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/58": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/59": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": []
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Product": {
+                "type": "object",
+                "properties": {
+                    "product_id": {
+                        "description": "Unique identifier representing a specific product for a given latitude & longitude. For example, uberX in San Francisco will have a different product_id than uberX in Los Angeles.",
+                        "type": "string"
+                    },
+                    "description": {
+                        "description": "Description of product.",
+                        "type": "string"
+                    },
+                    "display_name": {
+                        "description": "Display name of product.",
+                        "type": "string"
+                    },
+                    "capacity": {
+                        "description": "Capacity of product. For example, 4 people.",
+                        "type": "string"
+                    },
+                    "image": {
+                        "description": "Image URL representing the product.",
+                        "type": "string"
+                    }
+                }
+            },
+            "PriceEstimate": {
+                "type": "object",
+                "properties": {
+                    "product_id": {
+                        "description": "Unique identifier representing a specific product for a given latitude & longitude. For example, uberX in San Francisco will have a different product_id than uberX in Los Angeles.",
+                        "type": "string"
+                    },
+                    "currency_code": {
+                        "description": "[ISO 4217](http:\/\/en.wikipedia.org\/wiki\/ISO_4217) currency code.",
+                        "type": "string"
+                    },
+                    "display_name": {
+                        "description": "Display name of product.",
+                        "type": "string"
+                    },
+                    "estimate": {
+                        "description": "Formatted string of estimate in local currency of the start location. Estimate could be a range, a single number (flat rate) or \"Metered\" for TAXI.",
+                        "type": "string"
+                    },
+                    "low_estimate": {
+                        "description": "Lower bound of the estimated price.",
+                        "type": "number"
+                    },
+                    "high_estimate": {
+                        "description": "Upper bound of the estimated price.",
+                        "type": "number"
+                    },
+                    "surge_multiplier": {
+                        "description": "Expected surge multiplier. Surge is active if surge_multiplier is greater than 1. Price estimate already factors in the surge multiplier.",
+                        "type": "number"
+                    }
+                }
+            },
+            "Profile": {
+                "type": "object",
+                "properties": {
+                    "first_name": {
+                        "description": "First name of the Uber user.",
+                        "type": "string"
+                    },
+                    "last_name": {
+                        "description": "Last name of the Uber user.",
+                        "type": "string"
+                    },
+                    "email": {
+                        "description": "Email address of the Uber user",
+                        "type": "string"
+                    },
+                    "picture": {
+                        "description": "Image URL of the Uber user.",
+                        "type": "string"
+                    },
+                    "promo_code": {
+                        "description": "Promo code of the Uber user.",
+                        "type": "string"
+                    }
+                }
+            },
+            "Activity": {
+                "type": "object",
+                "properties": {
+                    "uuid": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Activity1": {
+                "type": "object",
+                "properties": {
+                    "uuid": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Activity2": {
+                "type": "object",
+                "properties": {
+                    "uuid": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Activity3": {
+                "type": "object",
+                "properties": {
+                    "uuid": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Activity4": {
+                "type": "object",
+                "properties": {
+                    "uuid": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Activity5": {
+                "type": "object",
+                "properties": {
+                    "uuid": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Activity6": {
+                "type": "object",
+                "properties": {
+                    "uuid": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Activity7": {
+                "type": "object",
+                "properties": {
+                    "uuid": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Activity8": {
+                "type": "object",
+                "properties": {
+                    "uuid": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Activity9": {
+                "type": "object",
+                "properties": {
+                    "uuid": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Activity10": {
+                "type": "object",
+                "properties": {
+                    "uuid": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Activity11": {
+                "type": "object",
+                "properties": {
+                    "uuid": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Activity12": {
+                "type": "object",
+                "properties": {
+                    "uuid": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Activity13": {
+                "type": "object",
+                "properties": {
+                    "uuid": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Activity14": {
+                "type": "object",
+                "properties": {
+                    "uuid": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Activity15": {
+                "type": "object",
+                "properties": {
+                    "uuid": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Activity16": {
+                "type": "object",
+                "properties": {
+                    "uuid": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Activity17": {
+                "type": "object",
+                "properties": {
+                    "uuid": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Activity18": {
+                "type": "object",
+                "properties": {
+                    "uuid": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Activity19": {
+                "type": "object",
+                "properties": {
+                    "uuid": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Activity20": {
+                "type": "object",
+                "properties": {
+                    "uuid": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Activity21": {
+                "type": "object",
+                "properties": {
+                    "uuid": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Activity22": {
+                "type": "object",
+                "properties": {
+                    "uuid": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Activity23": {
+                "type": "object",
+                "properties": {
+                    "uuid": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Activity24": {
+                "type": "object",
+                "properties": {
+                    "uuid": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Activity25": {
+                "type": "object",
+                "properties": {
+                    "uuid": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Activity26": {
+                "type": "object",
+                "properties": {
+                    "uuid": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Activity27": {
+                "type": "object",
+                "properties": {
+                    "uuid": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Activity28": {
+                "type": "object",
+                "properties": {
+                    "uuid": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Activity29": {
+                "type": "object",
+                "properties": {
+                    "uuid": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "Activities": {
+                "type": "object",
+                "properties": {
+                    "offset": {
+                        "description": "Position in pagination.",
+                        "type": "integer"
+                    },
+                    "limit": {
+                        "description": "Number of items to retrieve (100 max).",
+                        "type": "integer"
+                    },
+                    "count": {
+                        "description": "Total number of items available.",
+                        "type": "integer"
+                    },
+                    "history": {
+                        "description": "",
+                        "type": "array"
+                    }
+                }
+            },
+            "history": {
+                "type": "array"
+            }
+        }
+    }
+}
