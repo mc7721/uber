@@ -1,0 +1,90 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "0.1.0",
+        "title": "ReadmePad API",
+        "description": "Multi project Markdown Editor",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "http:\/\/api.uber.com\/project"
+    ],
+    "paths": {
+        "\/loadall": {
+            "get": {
+                "summary": "Product Types",
+                "description": "any description\n",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "An array of projects"
+                    }
+                }
+            }
+        },
+        "\/open\/pid": {
+            "get": {
+                "summary": "Open a project",
+                "description": "any description\n",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "pid",
+                        "in": "query",
+                        "description": "Project ID"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "An array of projects"
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Project": {
+                "type": "object",
+                "properties": {
+                    "_id": {
+                        "description": "Unique identifier setted by nedb.\n",
+                        "type": "string"
+                    },
+                    "pid": {
+                        "description": "Description of product.",
+                        "type": "string"
+                    },
+                    "name": {
+                        "description": "Display name of product.",
+                        "type": "string"
+                    },
+                    "path": {
+                        "description": "Capacity of product. For example, 4 people.",
+                        "type": "string"
+                    }
+                }
+            },
+            "Error": {
+                "type": "object",
+                "properties": {
+                    "code": {
+                        "description": "",
+                        "type": "integer"
+                    },
+                    "message": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "fields": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    }
+}
