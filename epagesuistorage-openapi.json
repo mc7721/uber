@@ -1,0 +1,232 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "epages-ui-storage",
+        "description": "Store and retrieve data",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "http:\/\/api.uber.com\/"
+    ],
+    "paths": {
+        "\/{shopId}\/config": {
+            "get": {
+                "summary": "Shops",
+                "description": "The Products endpoint returns information about the *Uber* products\noffered at a given location. The response includes the display name\nand other details about each product, and lists the products in the\nproper display order.\n",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "All shop configuration"
+                    }
+                }
+            }
+        },
+        "\/{shopId}\/pages": {
+            "get": {
+                "summary": "Pages",
+                "description": "List all page of the corresponding shop\n",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "All shop configuration"
+                    }
+                }
+            },
+            "post": {
+                "summary": "Pages",
+                "description": "List all page of the corresponding shop\n",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "All shop configuration"
+                    }
+                }
+            }
+        },
+        "\/{shopId}\/pages\/{pageId}": {
+            "get": {
+                "summary": "Page",
+                "description": "The Products endpoint returns information about the *Uber* products\noffered at a given location. The response includes the display name\nand other details about each product, and lists the products in the\nproper display order.\n",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "pageId",
+                        "in": "path",
+                        "description": "Id of the page to get"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "All shop configuration"
+                    }
+                }
+            },
+            "put": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "pageId",
+                        "in": "path",
+                        "description": "Id of the page to get"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "All shop configuration"
+                    }
+                }
+            },
+            "delete": {
+                "summary": "",
+                "description": "",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "pageId",
+                        "in": "path",
+                        "description": "Id of the page to get"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "All shop configuration"
+                    }
+                }
+            }
+        },
+        "\/{shopId}\/themes": {
+            "get": {
+                "summary": "Themes",
+                "description": "List all page of the corresponding shop\n",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "All shop configuration"
+                    }
+                }
+            },
+            "post": {
+                "summary": "Themes",
+                "description": "List all page of the corresponding shop\n",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "All shop configuration"
+                    }
+                }
+            }
+        },
+        "\/{shopId}\/themes\/{themeId}": {
+            "get": {
+                "summary": "Themes",
+                "description": "List all page of the corresponding shop\n",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "themeId",
+                        "in": "path",
+                        "description": "Id of the theme to get"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "All shop configuration"
+                    }
+                }
+            },
+            "put": {
+                "summary": "Themes",
+                "description": "List all page of the corresponding shop\n",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "No Name",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "themeId",
+                        "in": "path",
+                        "description": "Id of the theme to get"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "All shop configuration"
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
