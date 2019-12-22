@@ -16,8 +16,8 @@
         "taxis",
         "webhook implementations"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-21",
+    "modified": "2019-12-21",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/uber\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -35,7 +35,7 @@
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/uber-api-hahahaha-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/uber\/master\/uber-api-hahahaha-postman-collection.json"
                 }
             ]
         },
@@ -53,7 +53,7 @@
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/the-new-uber-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/uber\/master\/the-new-uber-api-postman-collection.json"
                 }
             ]
         },
@@ -71,7 +71,7 @@
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/pippo-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/uber\/master\/pippo-api-postman-collection.json"
                 }
             ]
         },
@@ -89,7 +89,7 @@
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ola-cab-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/uber\/master\/ola-cab-api-postman-collection.json"
                 }
             ]
         },
@@ -107,7 +107,7 @@
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/readmepad-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/uber\/master\/readmepad-api-postman-collection.json"
                 }
             ]
         },
@@ -125,7 +125,7 @@
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/uber\/master\/api-postman-collection.json"
                 }
             ]
         },
@@ -143,7 +143,7 @@
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/epagesuistorage-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/uber\/master\/epagesuistorage-postman-collection.json"
                 }
             ]
         },
@@ -161,7 +161,7 @@
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/uber-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/uber\/master\/uber-postman-collection.json"
                 }
             ]
         },
@@ -179,7 +179,7 @@
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/uber-api-v2-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/uber\/master\/uber-api-v2-postman-collection.json"
                 }
             ]
         },
@@ -197,7 +197,7 @@
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/uber\/master\/api-postman-collection.json"
                 }
             ]
         }
@@ -207,6 +207,10 @@
         {
             "type": "API.json - Authoritative",
             "url": "https:\/\/raw.githubusercontent.com\/picsoung\/apis.json\/master\/uber.json"
+        },
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
         },
         {
             "type": "Blog",
