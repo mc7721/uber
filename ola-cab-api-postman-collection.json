@@ -1,5 +1,5 @@
 {
-    "id": "1c3a98ed8d18122f2813ffa061b46cc0",
+    "id": "2889726220f994d1dd2b7a4fd86cb961",
     "name": "OLA Cab API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "d2c5140751acfc3f05c0015741300f3c",
+            "id": "878c879ecb1feb24faeade7fe0063e25",
             "name": "Product Types",
             "url": "http:\/\/api.uber.com\/v1\/products",
             "description": "The Products endpoint returns information about the *OLA Cab* products\noffered at a given location. The response includes the display name\nand other details about each product, and lists the products in the\nproper display order.\n",
@@ -44,11 +44,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1c3a98ed8d18122f2813ffa061b46cc0",
+            "collectionId": "2889726220f994d1dd2b7a4fd86cb961",
             "rawModeData": ""
         },
         {
-            "id": "5580daf7e44ab4ab376ed3cf6902be6e",
+            "id": "8abe36c16ae679e8860ab9b6522c2592",
             "name": "Price Estimates",
             "url": "http:\/\/api.uber.com\/v1\/estimates\/price",
             "description": "The Price Estimates endpoint returns an estimated price range\nfor each product offered at a given location. The price estimate is\nprovided as a formatted string with the full price range and the localized\ncurrency symbol.<br><br>The response also includes low and high estimates,\nand the [ISO 4217](http:\/\/en.wikipedia.org\/wiki\/ISO_4217) currency code for\nsituations requiring currency conversion. When surge is active for a particular\nproduct, its surge_multiplier will be greater than 1, but the pr",
@@ -96,11 +96,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1c3a98ed8d18122f2813ffa061b46cc0",
+            "collectionId": "2889726220f994d1dd2b7a4fd86cb961",
             "rawModeData": ""
         },
         {
-            "id": "e9f6cd01f0d4b8bbfa4e53da0ce833d9",
+            "id": "7fd90207e5e414bef3e9714e8720de44",
             "name": "Time Estimates",
             "url": "http:\/\/api.uber.com\/v1\/estimates\/time",
             "description": "The Time Estimates endpoint returns ETAs for all products offered at a given location, with the responses expressed as integers in seconds. We recommend that this endpoint be called every minute to provide the most accurate, up-to-date ETAs.",
@@ -148,11 +148,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1c3a98ed8d18122f2813ffa061b46cc0",
+            "collectionId": "2889726220f994d1dd2b7a4fd86cb961",
             "rawModeData": ""
         },
         {
-            "id": "487f4b5ec5848e2a6cf198b7561afafb",
+            "id": "72b335d3c37b0f5b3074f05a25252742",
             "name": "User Profile",
             "url": "http:\/\/api.uber.com\/v1\/me",
             "description": "The User Profile endpoint returns information about the OLA Cab user that has authorized with the application.",
@@ -171,11 +171,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1c3a98ed8d18122f2813ffa061b46cc0",
+            "collectionId": "2889726220f994d1dd2b7a4fd86cb961",
             "rawModeData": ""
         },
         {
-            "id": "205737f7bc97bc417101fb6ef922887e",
+            "id": "c99f0f8cc1861cace87192ed686478d2",
             "name": "User Activity",
             "url": "http:\/\/api.uber.com\/v1\/history",
             "description": "The User Activity endpoint returns data about a user's lifetime activity with OLA Cab. The response will include pickup locations and times, dropoff locations and times, the distance of past requests, and information about which products were requested.<br><br>The history array in the response will have a maximum length based on the limit parameter. The response value count may exceed limit, therefore subsequent API requests may be necessary.",
@@ -209,7 +209,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "1c3a98ed8d18122f2813ffa061b46cc0",
+            "collectionId": "2889726220f994d1dd2b7a4fd86cb961",
             "rawModeData": ""
         }
     ]
