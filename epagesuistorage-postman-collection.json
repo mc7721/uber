@@ -1,5 +1,5 @@
 {
-    "id": "24413916c4585893f65969bb81738d0d",
+    "id": "3fcba9822c8eaf970738bf07ff45b147",
     "name": "epages-ui-storage",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "b689c5b982d5184e21e6e4fd8058d835",
+            "id": "0790a258fe26accc51d5e1536e9641cf",
             "name": "Shops",
             "url": "http:\/\/api.uber.com\/\/{shopId}\/config",
             "description": "The Products endpoint returns information about the *Uber* products\noffered at a given location. The response includes the display name\nand other details about each product, and lists the products in the\nproper display order.\n",
@@ -37,11 +37,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "24413916c4585893f65969bb81738d0d",
+            "collectionId": "3fcba9822c8eaf970738bf07ff45b147",
             "rawModeData": ""
         },
         {
-            "id": "2f884e0e85aea196c84ba53ada8e1fe5",
+            "id": "c80832bb69a6e71ee6ec96ddb126065c",
             "name": "Pages",
             "url": "http:\/\/api.uber.com\/\/{shopId}\/pages",
             "description": "List all page of the corresponding shop\n",
@@ -68,11 +68,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "24413916c4585893f65969bb81738d0d",
+            "collectionId": "3fcba9822c8eaf970738bf07ff45b147",
             "rawModeData": ""
         },
         {
-            "id": "540acd53ba418b65cbf55de7199b8fc2",
+            "id": "c91f53a107798e9f570f5388dcfe250b",
             "name": "Pages",
             "url": "http:\/\/api.uber.com\/\/{shopId}\/pages",
             "description": "List all page of the corresponding shop\n",
@@ -99,11 +99,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "24413916c4585893f65969bb81738d0d",
+            "collectionId": "3fcba9822c8eaf970738bf07ff45b147",
             "rawModeData": ""
         },
         {
-            "id": "ee748276fa94cdd53a74c44af38397d7",
+            "id": "aca38e95a6cb17c8c78320081b5f765f",
             "name": "Page",
             "url": "http:\/\/api.uber.com\/\/{shopId}\/pages\/{pageId}",
             "description": "The Products endpoint returns information about the *Uber* products\noffered at a given location. The response includes the display name\nand other details about each product, and lists the products in the\nproper display order.\n",
@@ -137,11 +137,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "24413916c4585893f65969bb81738d0d",
+            "collectionId": "3fcba9822c8eaf970738bf07ff45b147",
             "rawModeData": ""
         },
         {
-            "id": "cbdeea68403406bfc00c9b1e144299dc",
+            "id": "087419286da912ec941256fa5bb0fc10",
             "name": "",
             "url": "http:\/\/api.uber.com\/\/{shopId}\/pages\/{pageId}",
             "description": "",
@@ -175,11 +175,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "24413916c4585893f65969bb81738d0d",
+            "collectionId": "3fcba9822c8eaf970738bf07ff45b147",
             "rawModeData": ""
         },
         {
-            "id": "53120397ccd0d86ba3bae0e1444b63b2",
+            "id": "c674060815c935a79978d3ec5dd55791",
             "name": "",
             "url": "http:\/\/api.uber.com\/\/{shopId}\/pages\/{pageId}",
             "description": "",
@@ -213,11 +213,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "24413916c4585893f65969bb81738d0d",
+            "collectionId": "3fcba9822c8eaf970738bf07ff45b147",
             "rawModeData": ""
         },
         {
-            "id": "584e7ae9308b19c89a0db0225add51de",
+            "id": "40e980e64ad6e8d932dead6efbef20fe",
             "name": "Themes",
             "url": "http:\/\/api.uber.com\/\/{shopId}\/themes",
             "description": "List all page of the corresponding shop\n",
@@ -244,11 +244,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "24413916c4585893f65969bb81738d0d",
+            "collectionId": "3fcba9822c8eaf970738bf07ff45b147",
             "rawModeData": ""
         },
         {
-            "id": "8d8b5ca83cfd7d4a27334198f6553220",
+            "id": "c6d026dd0b9616e72a0f0a8bf38769db",
             "name": "Themes",
             "url": "http:\/\/api.uber.com\/\/{shopId}\/themes",
             "description": "List all page of the corresponding shop\n",
@@ -275,11 +275,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "24413916c4585893f65969bb81738d0d",
+            "collectionId": "3fcba9822c8eaf970738bf07ff45b147",
             "rawModeData": ""
         },
         {
-            "id": "362163029c7e20d5f1ea08b466898287",
+            "id": "0ae20f39e1e4e5e615387ed0dfad9bad",
             "name": "Themes",
             "url": "http:\/\/api.uber.com\/\/{shopId}\/themes\/{themeId}",
             "description": "List all page of the corresponding shop\n",
@@ -313,11 +313,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "24413916c4585893f65969bb81738d0d",
+            "collectionId": "3fcba9822c8eaf970738bf07ff45b147",
             "rawModeData": ""
         },
         {
-            "id": "a0389bf23f4a6b84899ba8405f26d8a4",
+            "id": "a9680fa626d68c040e0bb1865e9a8cda",
             "name": "Themes",
             "url": "http:\/\/api.uber.com\/\/{shopId}\/themes\/{themeId}",
             "description": "List all page of the corresponding shop\n",
@@ -351,7 +351,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "24413916c4585893f65969bb81738d0d",
+            "collectionId": "3fcba9822c8eaf970738bf07ff45b147",
             "rawModeData": ""
         }
     ]
