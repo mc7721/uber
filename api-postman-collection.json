@@ -1,6 +1,6 @@
 {
-    "id": "498fb9ec5e6293044d828660df323993",
-    "name": "\u6d4b\u8bd5API",
+    "id": "f9f8718963abf515274310c8e842956d",
+    "name": "API\u6240\u5c5e\u9879\u76ee",
     "description": null,
     "auth": null,
     "events": null,
@@ -10,9 +10,9 @@
     "folders": [],
     "requests": [
         {
-            "id": "a3551a6a9e951868068a5bfe856edafc",
+            "id": "0eca1ad5d4f844d59037e582835461d2",
             "name": "Product Types",
-            "url": "http:\/\/api.uber.com\/aaa\/products",
+            "url": "http:\/\/api.uber.com\/v1\/products",
             "description": "The Products endpoint returns information about the *Uber* products\noffered at a given location. The response includes the display name\nand other details about each product, and lists the products in the\nproper display order.\n",
             "data": [],
             "dataMode": "raw",
@@ -44,13 +44,13 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "498fb9ec5e6293044d828660df323993",
+            "collectionId": "f9f8718963abf515274310c8e842956d",
             "rawModeData": ""
         },
         {
-            "id": "f66543b2c931a133dda01e73cea9b8d0",
+            "id": "1e8682a30a99e022c348f7b1d9257484",
             "name": "Price Estimates",
-            "url": "http:\/\/api.uber.com\/aaa\/estimates\/price",
+            "url": "http:\/\/api.uber.com\/v1\/estimates\/price",
             "description": "The Price Estimates endpoint returns an estimated price range\nfor each product offered at a given location. The price estimate is\nprovided as a formatted string with the full price range and the localized\ncurrency symbol.<br><br>The response also includes low and high estimates,\nand the [ISO 4217](http:\/\/en.wikipedia.org\/wiki\/ISO_4217) currency code for\nsituations requiring currency conversion. When surge is active for a particular\nproduct, its surge_multiplier will be greater than 1, but the pr",
             "data": [],
             "dataMode": "raw",
@@ -96,13 +96,13 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "498fb9ec5e6293044d828660df323993",
+            "collectionId": "f9f8718963abf515274310c8e842956d",
             "rawModeData": ""
         },
         {
-            "id": "fc61d8499c51ad306352db26b23cf832",
+            "id": "92dd468d0b4b694e3605f5edae450019",
             "name": "Time Estimates",
-            "url": "http:\/\/api.uber.com\/aaa\/estimates\/time",
+            "url": "http:\/\/api.uber.com\/v1\/estimates\/time",
             "description": "The Time Estimates endpoint returns ETAs for all products offered at a given location, with the responses expressed as integers in seconds. We recommend that this endpoint be called every minute to provide the most accurate, up-to-date ETAs.",
             "data": [],
             "dataMode": "raw",
@@ -148,13 +148,13 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "498fb9ec5e6293044d828660df323993",
+            "collectionId": "f9f8718963abf515274310c8e842956d",
             "rawModeData": ""
         },
         {
-            "id": "cc2f89084fb5138401d0bca8b8761bfb",
+            "id": "6bcf29e21c725a6b115f56ed8e920fee",
             "name": "User Profile",
-            "url": "http:\/\/api.uber.com\/aaa\/me",
+            "url": "http:\/\/api.uber.com\/v1\/me",
             "description": "The User Profile endpoint returns information about the Uber user that has authorized with the application.",
             "data": [],
             "dataMode": "raw",
@@ -171,13 +171,13 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "498fb9ec5e6293044d828660df323993",
+            "collectionId": "f9f8718963abf515274310c8e842956d",
             "rawModeData": ""
         },
         {
-            "id": "0a7649751cb91cc41037bfcb568173e1",
+            "id": "24e401ad70bfebc8f19b50c3d3fb0814",
             "name": "User Activity",
-            "url": "http:\/\/api.uber.com\/aaa\/history",
+            "url": "http:\/\/api.uber.com\/v1\/history",
             "description": "The User Activity endpoint returns data about a user's lifetime activity with Uber. The response will include pickup locations and times, dropoff locations and times, the distance of past requests, and information about which products were requested.<br><br>The history array in the response will have a maximum length based on the limit parameter. The response value count may exceed limit, therefore subsequent API requests may be necessary.",
             "data": [],
             "dataMode": "raw",
@@ -209,7 +209,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "498fb9ec5e6293044d828660df323993",
+            "collectionId": "f9f8718963abf515274310c8e842956d",
             "rawModeData": ""
         }
     ]
